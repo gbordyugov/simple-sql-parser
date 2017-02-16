@@ -1326,7 +1326,8 @@ and set operations (query expr).
 
 > selectItem :: Parser (ScalarExpr,Maybe Name)
 > selectItem = (,) <$> scalarExpr <*> optionMaybe als
->   where als = optional (keyword_ "as") *> name
+>   where als = optional (keyword_ "within record") *>
+>               optional (keyword_ "as") *> name
 
 > selectList :: Parser [(ScalarExpr,Maybe Name)]
 > selectList = commaSep1 selectItem
