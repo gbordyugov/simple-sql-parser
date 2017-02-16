@@ -546,7 +546,7 @@ factoring in this function, and it is a little dense.
 >         ,"real"
 >         ,"smallint"
 >         ,"time"
->         ,"timestamp"
+>         -- ,"timestamp"
 >         ,"varchar"
 >         ,"varbinary"
 >         ]
@@ -2490,7 +2490,7 @@ not, leave them unreserved for now
 >     ,"tablesample"
 >     ,"then"
 >     ,"time"
->     ,"timestamp"
+>     -- ,"timestamp"
 >     ,"timezone_hour"
 >     ,"timezone_minute"
 >     ,"to"
