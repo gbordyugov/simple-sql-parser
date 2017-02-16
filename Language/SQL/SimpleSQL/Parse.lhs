@@ -546,7 +546,7 @@ factoring in this function, and it is a little dense.
 >         ,"real"
 >         ,"smallint"
 >         ,"time"
->         -- ,"timestamp"
+>         ,"timestamp"
 >         ,"varchar"
 >         ,"varbinary"
 >         ]
